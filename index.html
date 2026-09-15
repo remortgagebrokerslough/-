@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mortgage Advisor in Slough | Remortgage &amp; Mortgage Broker Slough</title>
+<meta name="description" content="Independent mortgage advisor in Slough helping first-time buyers, homeowners and landlords find the right mortgage or remortgage deal from the whole market.">
+<meta name="keywords" content="Mortgage advisor in Slough, mortgage broker Slough, remortgage broker Slough">
+<link rel="canonical" href="https://www.remortgagebrokerslough.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mortgage Advisor in Slough | Remortgage Broker Slough">
+<meta property="og:description" content="Whole-of-market mortgage advice in Slough for first-time buyers, homeowners and landlords.">
+<meta property="og:url" content="https://www.remortgagebrokerslough.com/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "Remortgage Broker Slough",
+  "description": "Independent mortgage advisor in Slough offering whole-of-market mortgage and remortgage advice.",
+  "areaServed": {
+    "@type": "City",
+    "name": "Slough"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Slough",
+    "addressCountry": "GB"
+  }
+}
+</script>
+
+<style>
+  :root{
+    --navy: #0D2438;
+    --navy-deep: #081824;
+    --paper: #EFF2F0;
+    --white: #FFFFFF;
+    --brass: #B08D3F;
+    --brass-deep: #8F7130;
+    --ink: #16222E;
+    --steel: #5B6B78;
+    --line: #D8DEDA;
+    --maxw: 1120px;
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  body{
+    margin:0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,h2,h3{
+    font-family: 'Fraunces', serif;
+    color: var(--navy);
+    line-height: 1.15;
+    margin: 0 0 0.5em 0;
+    font-weight: 600;
+  }
+  h1{ font-size: clamp(2.4rem, 5vw, 3.6rem); font-weight: 700; }
+  h2{ font-size: clamp(1.7rem, 3vw, 2.3rem); }
+  h3{ font-size: 1.25rem; }
+  p{ margin: 0 0 1.1em 0; }
+  a{ color: var(--brass-deep); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+  a:hover{ color: var(--navy); }
+  img, svg{ max-width:100%; display:block; }
+  .wrap{ max-width: var(--maxw); margin: 0 auto; padding: 0 28px; }
+  .prose{ max-width: 720px; }
+  .prose p{ max-width: 68ch; }
+  section{ padding: 96px 0; }
+  .visually-hidden{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }
+
+  /* focus visibility */
+  a:focus-visible, button:focus-visible, summary:focus-visible{
+    outline: 3px solid var(--brass);
+    outline-offset: 2px;
+  }
+
+  /* HEADER */
+  header{
+    position: sticky; top:0; z-index: 50;
+    background: var(--navy);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .nav-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 18px 0;
+  }
+  .logo{
+    font-family:'Fraunces', serif; font-weight:700; font-size:1.15rem;
+    color: var(--white); letter-spacing: 0.2px; text-decoration:none;
+  }
+  .logo span{ color: var(--brass); }
+  nav ul{ list-style:none; display:flex; gap:28px; margin:0; padding:0; }
+  nav a{ color: #D8E0E6; font-size:0.95rem; text-decoration:none; font-weight:500; }
+  nav a:hover{ color: var(--brass); }
+  .nav-toggle{ display:none; }
+
+  /* HERO */
+  .hero{
+    background: var(--navy);
+    color: var(--white);
+    padding: 90px 0 70px;
+    overflow: hidden;
+  }
+  .hero .wrap{
+    display:grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items:center;
+  }
+  .hero h1{ color: var(--white); }
+  .hero .lede{
+    font-size: 1.15rem; color:#C7D1D8; max-width: 46ch; margin-bottom: 1.6em;
+  }
+  .hero-actions{ display:flex; gap:16px; flex-wrap:wrap; }
+  .btn{
+    display:inline-block; padding: 14px 26px; border-radius: 3px;
+    font-weight:600; font-size:0.95rem; text-decoration:none;
+    border: 1px solid transparent; cursor:pointer;
+  }
+  .btn-primary{ background: var(--brass); color: var(--navy-deep); }
+  .btn-primary:hover{ background:#c39c4a; color: var(--navy-deep); }
+  .btn-ghost{ background:transparent; color:var(--white); border-color: rgba(255,255,255,0.35); }
+  .btn-ghost:hover{ border-color: var(--white); color:var(--white); }
+  .hero-art{ justify-self:center; }
+
+  /* STATS */
+  .stats{ background: var(--brass); padding: 0; }
+  .stats .wrap{
+    display:grid; grid-template-columns: repeat(4,1fr); gap: 0;
+  }
+  .stat{ padding: 42px 20px; text-align:left; border-left: 1px solid rgba(13,36,56,0.18); }
+  .stat:first-child{ border-left:none; }
+  .stat .num{ font-family:'Fraunces', serif; font-size: 2.4rem; font-weight:700; color: var(--navy-deep); display:block; }
+  .stat .label{ color: var(--navy-deep); font-size:0.92rem; font-weight:500; }
+
+  /* ARTICLE SECTIONS */
+  .section-ivory{ background: var(--paper); }
+  .section-white{ background: var(--white); }
+  .grid-2{
+    display:grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items:center;
+  }
+  .grid-2.rev .art{ order:2; }
+  .eyebrow-none{ /* intentional: no all-caps eyebrow labels used in this design */ }
+  .icon-badge{
+    width:52px; height:52px; border-radius: 50%;
+    background: var(--navy); display:flex; align-items:center; justify-content:center;
+    margin-bottom: 18px;
+  }
+  .icon-badge svg{ width:26px; height:26px; }
+
+  blockquote{
+    border-left: 3px solid var(--brass);
+    margin: 2em 0; padding: 4px 0 4px 24px;
+    font-family:'Fraunces', serif; font-size:1.2rem; color: var(--navy); font-style: italic;
+  }
+
+  /* PROCESS */
+  .process-list{ counter-reset: step; list-style:none; margin:0; padding:0; }
+  .process-list li{
+    counter-increment: step;
+    display:grid; grid-template-columns: 64px 1fr; gap: 24px;
+    padding: 28px 0; border-top: 1px solid var(--line);
+  }
+  .process-list li:last-child{ border-bottom: 1px solid var(--line); }
+  .process-list li::before{
+    content: counter(step, decimal-leading-zero);
+    font-family:'Fraunces', serif; font-size:1.6rem; color: var(--brass-deep); font-weight:600;
+  }
+  .process-list h3{ margin-bottom: 6px; }
+  .process-list p{ color: var(--steel); margin:0; }
+
+  /* MISTAKES */
+  .cards{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .card{
+    background: var(--white); border: 1px solid var(--line); padding: 30px 26px;
+  }
+  .card h3{ font-size:1.1rem; }
+  .card p{ color: var(--steel); font-size:0.98rem; margin:0; }
+
+  /* FAQ */
+  .faq-item{ border-top: 1px solid var(--line); }
+  .faq-item:last-child{ border-bottom: 1px solid var(--line); }
+  .faq-item summary{
+    cursor:pointer; padding: 22px 0; font-family:'Fraunces', serif; font-size:1.15rem;
+    color: var(--navy); font-weight:600; display:flex; justify-content:space-between; align-items:center;
+    list-style:none;
+  }
+  .faq-item summary::-webkit-details-marker{ display:none; }
+  .faq-item summary::after{ content:'+'; font-size:1.6rem; color: var(--brass-deep); font-weight:400; }
+  .faq-item[open] summary::after{ content:'\2212'; }
+  .faq-item p{ padding-bottom: 22px; color: var(--steel); max-width: 65ch; }
+
+  /* CONTACT / CTA */
+  .cta{ background: var(--navy-deep); color: var(--white); }
+  .cta h2{ color: var(--white); }
+  .cta .lede{ color:#B9C4CC; max-width:56ch; }
+  .form-grid{ display:grid; grid-template-columns: 1fr 1fr; gap:18px; margin-top: 34px; }
+  .form-grid .full{ grid-column: 1 / -1; }
+  label{ display:block; font-size:0.85rem; color:#B9C4CC; margin-bottom:6px; }
+  input, textarea{
+    width:100%; padding: 13px 14px; background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.2); color: var(--white); font-family:'IBM Plex Sans', sans-serif;
+    font-size:0.98rem; border-radius:2px;
+  }
+  textarea{ min-height:110px; resize:vertical; }
+  input::placeholder, textarea::placeholder{ color:#7E8E98; }
+
+  /* FOOTER */
+  footer{ background: var(--navy-deep); color:#94A4AD; padding: 46px 0 34px; border-top:1px solid rgba(255,255,255,0.08); }
+  .footer-row{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; align-items:center; }
+  footer a{ color:#B9C4CC; }
+  .foot-links{ display:flex; gap:22px; list-style:none; padding:0; margin:0; flex-wrap:wrap; }
+  .fine{ font-size:0.85rem; margin-top:22px; color:#6E7E88; }
+
+  /* reveal animation base state (JS adds .is-visible) */
+  .reveal{ opacity:0; transform: translateY(28px); }
+
+  @media (max-width: 880px){
+    .hero .wrap{ grid-template-columns: 1fr; }
+    .hero-art{ order:-1; max-width:280px; }
+    .stats .wrap{ grid-template-columns: repeat(2,1fr); }
+    .stat{ border-left:none; border-top:1px solid rgba(13,36,56,0.18); }
+    .stat:nth-child(1), .stat:nth-child(2){ border-top:none; }
+    .grid-2{ grid-template-columns: 1fr; gap:34px; }
+    .grid-2.rev .art{ order:0; }
+    .cards{ grid-template-columns: 1fr; }
+    .form-grid{ grid-template-columns: 1fr; }
+    nav ul{ display:none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-row">
+    <a href="#top" class="logo">Remortgage<span>Broker</span>Slough</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#advice">Advice</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Mortgage Advisor in Slough Who Puts Your Numbers First</h1>
+        <p class="lede">Independent, whole-of-market mortgage advice for buyers, homeowners and landlords across Slough, Langley, Cippenham and the surrounding towns.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start Your Enquiry</a>
+          <a href="#advice" class="btn btn-ghost">See How It Works</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 340 300" width="340" height="300" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="340" height="300" fill="none"/>
+          <polygon points="60,150 170,70 280,150" fill="#B08D3F"/>
+          <rect x="80" y="150" width="180" height="120" fill="#F5F3EC"/>
+          <rect x="150" y="200" width="40" height="70" fill="#0D2438"/>
+          <rect x="100" y="175" width="34" height="34" fill="#0D2438"/>
+          <rect x="206" y="175" width="34" height="34" fill="#0D2438"/>
+          <circle cx="255" cy="60" r="26" fill="none" stroke="#F5F3EC" stroke-width="4"/>
+          <rect x="272" y="82" width="8" height="34" fill="#F5F3EC" transform="rotate(45 276 99)"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="wrap">
+      <div class="stat"><span class="num" data-count="500">0</span><span class="label">Slough mortgages arranged</span></div>
+      <div class="stat"><span class="num" data-count="60">0</span><span class="label">Lenders on our panel</span></div>
+      <div class="stat"><span class="num" data-count="97">0</span><span class="label">% client satisfaction</span></div>
+      <div class="stat"><span class="num" data-count="12">0</span><span class="label">Years advising locally</span></div>
+    </div>
+  </section>
+
+  <!-- INTRO / ARTICLE START -->
+  <section class="section-ivory" id="advice">
+    <div class="wrap">
+      <div class="grid-2 reveal">
+        <div class="prose">
+          <h2>A Mortgage Advisor in Slough Who Actually Knows the Streets</h2>
+          <p>Buying a home, moving up the ladder, or remortgaging in Slough usually involves more paperwork and more small decisions than most people expect. A good mortgage advisor in Slough turns that maze into a short, well-lit corridor: one conversation to understand your income and goals, one search across the whole market instead of a single bank's shelf, and one plan that actually fits the property you have your eye on in Cippenham, Langley, Chalvey or the town centre. Slough's location next to Heathrow and on the Elizabeth line has kept demand steady even when the wider market wobbles, which means timing and lender choice matter more here than in many neighbouring towns.</p>
+          <p>Not every application fits neatly into a high-street lender's box, and that is where a broader panel earns its keep. Alongside mainstream banks and building societies, we work with specialist lending networks such as <a href="https://www.cubicfinancial.com/" target="_blank" rel="noopener">cubicfinancial</a>, whose panel considers cases involving adverse credit, complex self-employed income or non-standard properties that many mainstream lenders turn away without a second look. Having that extra route available means a client who has been declined elsewhere in Slough often still has a realistic path to an offer, rather than a dead end.</p>
+          <p>What that means in practice is fewer wasted applications and fewer hard credit searches sitting on your file. We start by understanding the full picture — deposit, income, credit history, and what you actually want the mortgage to do for you — before a single application goes anywhere. Only once we know which lenders will genuinely say yes do we submit anything on your behalf.</p>
+        </div>
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 320 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="40" width="280" height="220" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+            <rect x="46" y="70" width="140" height="14" fill="#0D2438"/>
+            <rect x="46" y="98" width="228" height="8" fill="#D8DEDA"/>
+            <rect x="46" y="118" width="228" height="8" fill="#D8DEDA"/>
+            <rect x="46" y="138" width="160" height="8" fill="#D8DEDA"/>
+            <circle cx="230" cy="200" r="42" fill="#B08D3F"/>
+            <path d="M212 200 L224 212 L250 184" stroke="#0D2438" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIRST TIME BUYERS -->
+  <section class="section-white">
+    <div class="wrap">
+      <div class="grid-2 rev reveal">
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 320 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+            <rect x="30" y="120" width="90" height="140" fill="#0D2438"/>
+            <rect x="130" y="80" width="90" height="180" fill="#B08D3F"/>
+            <rect x="230" y="150" width="70" height="110" fill="#0D2438"/>
+            <rect x="45" y="140" width="20" height="20" fill="#EFF2F0"/>
+            <rect x="80" y="140" width="20" height="20" fill="#EFF2F0"/>
+            <rect x="145" y="100" width="20" height="20" fill="#EFF2F0"/>
+            <rect x="185" y="100" width="20" height="20" fill="#EFF2F0"/>
+            <rect x="145" y="140" width="20" height="20" fill="#EFF2F0"/>
+            <rect x="185" y="140" width="20" height="20" fill="#EFF2F0"/>
+          </svg>
+        </div>
+        <div class="prose">
+          <div class="icon-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 11L12 4l9 7" stroke="#F5F3EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 9v10h14V9" stroke="#F5F3EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h2>First-Time Buyer Mortgages in Slough</h2>
+          <p>First-time buyers in Slough are competing for a genuinely mixed stock of homes, from Victorian terraces near the station to newer builds out towards Langley, and lenders treat that variety differently depending on deposit size and property type. We work through affordability calculations the way underwriters actually do, factoring in existing credit commitments, student loan repayments and even the way certain lenders treat overtime or bonus income, so the figure we give you is one you can rely on when you start viewing.</p>
+          <p>Where a deposit is tight, we also look at shared ownership, family-assisted schemes and guarantor options that are available on properties across Slough, and we're upfront about which of those genuinely suit your situation rather than pushing whichever product happens to pay the highest commission.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REMORTGAGE -->
+  <section class="section-ivory">
+    <div class="wrap">
+      <div class="grid-2 reveal">
+        <div class="prose">
+          <div class="icon-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4v6h6M20 20v-6h-6" stroke="#F5F3EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 10a8 8 0 00-14.5-4.5M4 14a8 8 0 0014.5 4.5" stroke="#F5F3EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h2>Remortgaging in Slough: When It Actually Pays Off</h2>
+          <p>Most remortgage conversations start the same way: a fixed rate is ending in the next six months, and the homeowner wants to know whether switching lender beats staying put on the existing bank's follow-on rate. In Slough, where property values have moved enough over the past few years to shift loan-to-value bands, a remortgage can often unlock a meaningfully better rate simply because the equity position has improved since the original mortgage was arranged.</p>
+          <p>Remortgaging is also how many homeowners fund an extension, consolidate higher-interest debt, or release capital for a second property, and the right structure depends heavily on your existing lender's exit terms and your long-term plans for the property. We run the comparison against staying with your current lender's retention rate before recommending a full remortgage, because sometimes the simplest option really is the cheapest one.</p>
+        </div>
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 320 260" width="100%" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="20,220 80,180 140,200 200,110 260,140 300,60" fill="none" stroke="#B08D3F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="300" cy="60" r="8" fill="#0D2438"/>
+            <line x1="20" y1="230" x2="300" y2="230" stroke="#D8DEDA" stroke-width="2"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUY TO LET -->
+  <section class="section-white">
+    <div class="wrap">
+      <div class="grid-2 rev reveal">
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 320 260" width="100%" xmlns="http://www.w3.org/2000/svg">
+            <rect x="40" y="60" width="240" height="160" fill="#EFF2F0" stroke="#D8DEDA" stroke-width="2"/>
+            <rect x="60" y="90" width="60" height="50" fill="#0D2438"/>
+            <rect x="130" y="90" width="60" height="50" fill="#B08D3F"/>
+            <rect x="200" y="90" width="60" height="50" fill="#0D2438"/>
+            <rect x="60" y="150" width="60" height="50" fill="#B08D3F"/>
+            <rect x="130" y="150" width="60" height="50" fill="#0D2438"/>
+            <rect x="200" y="150" width="60" height="50" fill="#B08D3F"/>
+          </svg>
+        </div>
+        <div class="prose">
+          <div class="icon-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="7" height="7" stroke="#F5F3EC" stroke-width="2"/><rect x="13" y="4" width="7" height="7" stroke="#F5F3EC" stroke-width="2"/><rect x="4" y="13" width="7" height="7" stroke="#F5F3EC" stroke-width="2"/><rect x="13" y="13" width="7" height="7" stroke="#F5F3EC" stroke-width="2"/></svg>
+          </div>
+          <h2>Buy-to-Let and Specialist Mortgages</h2>
+          <p>Slough's rental demand, driven partly by Heathrow-linked employment and the Elizabeth line commute into London, keeps buy-to-let a realistic strategy for local landlords, but lender criteria here can be more particular than on residential deals. Rental cover calculations, portfolio landlord rules and stress-tested interest rates all vary between lenders, and a broker who checks each one saves you from an application that stalls halfway through underwriting.</p>
+          <p>For HMOs, limited company purchases, or portfolios that have grown past four properties, we route the case to lenders who specialise in exactly that structure rather than trying to force it through a standard buy-to-let product that was never built to handle it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section-ivory" id="process">
+    <div class="wrap">
+      <div class="reveal" style="margin-bottom:48px; max-width:640px;">
+        <h2>How the Mortgage Process Works, Step by Step</h2>
+        <p>Every case is different, but the shape of the journey from first conversation to completion stays roughly the same.</p>
+      </div>
+      <ol class="process-list reveal">
+        <li>
+          <div><h3>Initial Conversation</h3><p>We talk through income, deposit, credit history and what you want the mortgage to achieve, with no obligation attached.</p></div>
+        </li>
+        <li>
+          <div><h3>Document Gathering</h3><p>Payslips, bank statements and ID are collected once, in the format each lender actually asks for, to avoid repeat requests later.</p></div>
+        </li>
+        <li>
+          <div><h3>Agreement in Principle</h3><p>A same-lender or whole-market AIP gives you a figure to view properties against, usually within 24 hours.</p></div>
+        </li>
+        <li>
+          <div><h3>Full Application</h3><p>We submit the complete application to the lender most likely to approve it first time, with every supporting document attached.</p></div>
+        </li>
+        <li>
+          <div><h3>Valuation and Underwriting</h3><p>The lender values the property and underwrites the file; we chase updates so you're never left guessing.</p></div>
+        </li>
+        <li>
+          <div><h3>Offer and Completion</h3><p>Once the formal offer arrives, we liaise with your solicitor to keep the exchange and completion dates on track.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- MISTAKES -->
+  <section class="section-white">
+    <div class="wrap">
+      <div class="reveal" style="margin-bottom:40px; max-width:640px;">
+        <h2>Mistakes That Cost Slough Buyers Time and Money</h2>
+      </div>
+      <div class="cards reveal">
+        <div class="card">
+          <h3>Applying to one lender first</h3>
+          <p>A hard search with the wrong lender before checking eligibility can dent your credit file before you've even found the right deal.</p>
+        </div>
+        <div class="card">
+          <h3>Not checking the credit file early</h3>
+          <p>Small errors or unresolved balances on a credit report are far easier to fix months before an application than during underwriting.</p>
+        </div>
+        <div class="card">
+          <h3>Overlooking product fees</h3>
+          <p>The lowest headline rate isn't always the cheapest deal once arrangement and valuation fees are added into the true cost.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-ivory" id="faq">
+    <div class="wrap" style="max-width:760px;">
+      <div class="reveal" style="margin-bottom:20px;">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="reveal">
+        <details class="faq-item">
+          <summary>Do I need a deposit to speak to a mortgage advisor in Slough?</summary>
+          <p>No. We can talk through your options and give you a realistic affordability figure before you've saved a full deposit, so you know what to plan towards.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How is a broker different from going straight to my bank?</summary>
+          <p>Your bank can only offer its own products. A whole-of-market broker compares dozens of lenders, including specialist panels, to find the deal that actually fits your circumstances.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How long does a typical mortgage take in Slough?</summary>
+          <p>An Agreement in Principle can be same-day, while full approval to completion usually runs four to eight weeks depending on the lender and how quickly documents come together.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can you help if I've been declined elsewhere?</summary>
+          <p>Often, yes. A decline from one lender doesn't mean a decline everywhere — we look at specialist and near-prime options that consider cases mainstream lenders won't.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section class="cta" id="contact">
+    <div class="wrap">
+      <div class="reveal" style="max-width:600px;">
+        <h2>Ready to Talk About Your Mortgage?</h2>
+        <p class="lede">Send a few details and we'll come back with the options that genuinely fit your situation — no pressure, no obligation.</p>
+      </div>
+      <form class="form-grid reveal" onsubmit="event.preventDefault(); this.querySelector('.thanks').style.display='block';">
+        <div>
+          <label for="name">Full name</label>
+          <input id="name" type="text" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="email">Email address</label>
+          <input id="email" type="email" placeholder="you@email.com" required>
+        </div>
+        <div class="full">
+          <label for="message">What are you looking to do?</label>
+          <textarea id="message" placeholder="e.g. First-time buyer, remortgage, buy-to-let..."></textarea>
+        </div>
+        <div class="full">
+          <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          <p class="thanks" style="display:none; margin-top:14px; color:#B08D3F;">Thanks — your enquiry has been noted.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-row">
+      <a href="#top" class="logo">Remortgage<span>Broker</span>Slough</a>
+      <ul class="foot-links">
+        <li><a href="#advice">Advice</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <p class="fine">Remortgage Broker Slough is an introducer for mortgage advice. Your home may be repossessed if you do not keep up repayments on a mortgage or any debt secured against it. &copy; <span id="year"></span> Remortgage Broker Slough. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Section reveal on scroll
+  gsap.utils.toArray('.reveal').forEach((el) => {
+    gsap.fromTo(el,
+      { opacity: 0, y: 28 },
+      {
+        opacity: 1, y: 0, duration: 0.9, ease: 'power2.out',
+        scrollTrigger: { trigger: el, start: 'top 82%' }
+      }
+    );
+  });
+
+  // Animated stat counters
+  gsap.utils.toArray('.stat .num').forEach((el) => {
+    const target = parseInt(el.getAttribute('data-count'), 10);
+    let obj = { val: 0 };
+    ScrollTrigger.create({
+      trigger: el,
+      start: 'top 90%',
+      once: true,
+      onEnter: () => {
+        gsap.to(obj, {
+          val: target, duration: 1.6, ease: 'power1.out',
+          onUpdate: () => { el.textContent = Math.round(obj.val); }
+        });
+      }
+    });
+  });
+
+  // Subtle parallax on hero illustration
+  gsap.to('.hero-art', {
+    y: 24,
+    ease: 'none',
+    scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true }
+  });
+
+  // Header shadow on scroll
+  ScrollTrigger.create({
+    start: 'top -80',
+    onUpdate: (self) => {
+      document.querySelector('header').style.boxShadow = self.scroll() > 80 ? '0 6px 18px rgba(0,0,0,0.25)' : 'none';
+    }
+  });
+</script>
+
+</body>
+</html>
